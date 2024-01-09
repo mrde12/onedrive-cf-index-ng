@@ -34,12 +34,10 @@ module.exports = {
 
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
-  // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
+ // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
   // This is the path relative to `baseDirectory` above, not relative to root in your Onedrive.
- "protectedRoutes": [
-  '/HVTP',
-],
+  protectedRoutes: ['/HVTP'],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
   email: 'mailto:truongnn@moj.gov.vn',
